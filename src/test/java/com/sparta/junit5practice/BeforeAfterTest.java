@@ -21,7 +21,7 @@ public class BeforeAfterTest {
     @AfterAll
     static void afterAll() {
         System.out.println("모든 테스트가 실행된 후에 수행, 마지막으로 수행될 때");
-
+    }
 
     @Test
     void test1() {
